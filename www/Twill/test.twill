@@ -1,0 +1,10 @@
+setlocal query ">gicds\nACTGGGGCGTTTTAAACCCTTTTTTTTTGGGGGGACCCCCCCCAAAAAAATTT"
+
+go http://lyorn.idyll.org/~qingpeng/blastkit/
+
+fv 1 sequence $query
+submit None
+
+show
+
+

@@ -1,0 +1,8 @@
+config 'acknowledge_equiv_refresh' 0 
+go http://lyorn.idyll.org/~qingpeng/blastkit/
+formfile 1 filename "/u/qingpeng/blastkit/www/test.fa"
+submit None
+sleep 5
+reload
+go ./index.html
+show

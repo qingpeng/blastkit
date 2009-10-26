@@ -1,0 +1,8 @@
+setlocal query "twill Python"
+
+go http://www.google.com/
+
+fv 1 q $query
+submit btnI     # use the "I'm feeling lucky" button
+
+show
